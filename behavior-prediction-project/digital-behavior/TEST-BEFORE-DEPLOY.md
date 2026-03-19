@@ -39,7 +39,7 @@ docker exec digital-behavior-frontend printenv | grep NEXT_PUBLIC
 
 **Expected output:**
 ```
-DATABASE_URL=postgresql://dbuser:dbpassword@postgres:5432/digital_behavior_twin
+DATABASE_URL=postgresql://dbuser:dbpassword@postgres:5432/digital_behavior_prediction
 ALLOWED_ORIGINS=http://localhost:3000
 NEXT_PUBLIC_API_URL=http://localhost:8000
 NEXT_PUBLIC_USER_ID=1
@@ -148,7 +148,7 @@ docker-compose down && docker-compose up -d
 
 ```bash
 # Check database tables exist
-docker exec digital-behavior-db psql -U dbuser -d digital_behavior_twin -c "\dt"
+docker exec digital-behavior-db psql -U dbuser -d digital_behavior_prediction -c "\dt"
 ```
 
 **Expected tables:**
@@ -265,7 +265,7 @@ docker-compose up -d
 **Solution:**
 ```bash
 # Check .env password matches database
-docker exec digital-behavior-db psql -U dbuser -d digital_behavior_twin -c "SELECT 1"
+docker exec digital-behavior-db psql -U dbuser -d digital_behavior_prediction -c "SELECT 1"
 
 # If needed, recreate database with new password
 docker-compose down -v

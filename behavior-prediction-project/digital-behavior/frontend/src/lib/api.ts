@@ -1,5 +1,5 @@
 /**
- * API client for Digital Behavior Twin backend
+ * API client for Digital Behavior Prediction backend
  */
 
 import {

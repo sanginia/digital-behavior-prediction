@@ -1,7 +1,7 @@
 {
-  "name": "digital-behavior-twin-extension",
+  "name": "digital-behavior-prediction-extension",
   "version": "0.1.0",
-  "description": "Chrome extension for Digital Behavior Twin behavioral tracking",
+  "description": "Chrome extension for Digital Behavior Prediction behavioral tracking",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",

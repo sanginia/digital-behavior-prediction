@@ -1,4 +1,4 @@
-# Frontend Dockerfile for Digital Behavior Twin Dashboard
+# Frontend Dockerfile for Digital Behavior Prediction Dashboard
 
 FROM node:20-alpine
 

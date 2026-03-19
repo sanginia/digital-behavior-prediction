@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Digital Behavior Twin",
+  title: "Digital Behavior Prediction",
   description: "Behavioral modeling and abandonment prediction dashboard",
 };
 

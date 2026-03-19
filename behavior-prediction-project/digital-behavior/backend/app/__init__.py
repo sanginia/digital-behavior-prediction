@@ -1,1 +1,1 @@
-"""Digital Behavior Twin - Backend Application"""
+"""Digital Behavior Prediction - Backend Application"""

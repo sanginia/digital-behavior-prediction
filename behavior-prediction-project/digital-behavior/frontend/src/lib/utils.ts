@@ -1,5 +1,5 @@
 /**
- * Utility functions for the Digital Behavior Twin dashboard
+ * Utility functions for the Digital Behavior Prediction dashboard
  */
 
 import { RiskLevel } from '@/types';

@@ -6,7 +6,7 @@
 set -e  # Exit on error
 
 echo "============================================"
-echo "🧪 Digital Behavior Twin - Deployment Test"
+echo "🧪 Digital Behavior Prediction - Deployment Test"
 echo "============================================"
 echo ""
 
@@ -71,7 +71,7 @@ echo ""
 
 echo "Test 6: Database Connection"
 echo "----------------------------------------"
-docker exec digital-behavior-db psql -U dbuser -d digital_behavior_twin -c "SELECT COUNT(*) FROM users;" > /dev/null 2>&1
+docker exec digital-behavior-db psql -U dbuser -d digital_behavior_prediction -c "SELECT COUNT(*) FROM users;" > /dev/null 2>&1
 test_result
 echo ""
 

@@ -1,5 +1,5 @@
 /**
- * TypeScript type definitions for Digital Behavior Twin
+ * TypeScript type definitions for Digital Behavior Prediction
  */
 
 export interface BrowserEvent {

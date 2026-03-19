@@ -1,5 +1,5 @@
 /**
- * Popup UI controller for Digital Behavior Twin Extension
+ * Popup UI controller for Digital Behavior Prediction Extension
  *
  * Handles user interactions and displays tracking status
  */

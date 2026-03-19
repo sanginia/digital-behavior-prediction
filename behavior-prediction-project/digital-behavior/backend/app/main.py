@@ -1,5 +1,5 @@
 """
-Digital Behavior Twin API
+Digital Behavior Prediction API
 
 Main FastAPI application that orchestrates the behavioral modeling system.
 Provides endpoints for:
@@ -19,7 +19,7 @@ from .api.v1.predictions import router as predictions_router
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="Digital Behavior Twin API",
+    title="Digital Behavior Prediction API",
     description="API for behavioral modeling and task abandonment prediction",
     version="0.1.0",
     docs_url="/api/docs",
@@ -43,7 +43,7 @@ app.add_middleware(
 def root():
     """API root endpoint."""
     return {
-        "message": "Digital Behavior Twin API",
+        "message": "Digital Behavior Prediction API",
         "version": "0.1.0",
         "docs": "/api/docs"
     }
@@ -52,7 +52,7 @@ def root():
 @app.get("/health", tags=["Health"])
 def health_check():
     """Health check endpoint for monitoring."""
-    return {"status": "ok", "service": "digital-behavior-twin"}
+    return {"status": "ok", "service": "digital-behavior-prediction"}
 
 
 # Include API route modules

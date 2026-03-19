@@ -1,4 +1,4 @@
-# Digital Behavior Twin - Architecture Documentation
+# Digital Behavior Prediction - Architecture Documentation
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 ## System Overview
 
-Digital Behavior Twin is a behavioral modeling system that consists of four main components:
+Digital Behavior Prediction is a behavioral modeling system that consists of four main components:
 
 1. **Chrome Extension**: Captures browser events
 2. **FastAPI Backend**: Processes events, computes features, generates predictions
@@ -615,7 +615,7 @@ risk_score = min(risk_score, 1.0)  # Cap at 1.0
 
 ## Conclusion
 
-The Digital Behavior Twin architecture is designed for:
+The Digital Behavior Prediction architecture is designed for:
 - **Modularity**: Each component is independent and replaceable
 - **Scalability**: Clear path from MVP to production scale
 - **Maintainability**: Clean separation of concerns, well-documented

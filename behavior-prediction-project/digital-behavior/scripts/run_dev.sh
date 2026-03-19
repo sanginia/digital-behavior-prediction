@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Digital Behavior Twin - Development Runner
+# Digital Behavior Prediction - Development Runner
 # Starts all services for local development
 
 set -e
 
 echo "================================"
-echo "Digital Behavior Twin - Dev Mode"
+echo "Digital Behavior Prediction - Dev Mode"
 echo "================================"
 echo
 

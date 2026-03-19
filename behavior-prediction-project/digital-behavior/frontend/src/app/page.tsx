@@ -95,7 +95,7 @@ export default function Dashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-slate-900">Digital Behavior Twin</h1>
+              <h1 className="text-3xl font-bold text-slate-900">Digital Behavior Prediction</h1>
               <p className="text-slate-600 mt-1">Behavioral modeling and task abandonment prediction</p>
             </div>
             <button
@@ -214,7 +214,7 @@ export default function Dashboard() {
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 p-6">
               <h3 className="font-semibold text-slate-900 mb-2">Extension Active</h3>
               <p className="text-sm text-slate-600 mb-3">
-                The Digital Behavior Twin extension is tracking your browsing patterns.
+                The Digital Behavior Prediction extension is tracking your browsing patterns.
               </p>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>

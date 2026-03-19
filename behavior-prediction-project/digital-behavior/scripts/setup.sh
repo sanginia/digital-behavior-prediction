@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Digital Behavior Twin - Setup Script
+# Digital Behavior Prediction - Setup Script
 # This script sets up the development environment
 
 set -e  # Exit on error
 
 echo "================================"
-echo "Digital Behavior Twin - Setup"
+echo "Digital Behavior Prediction - Setup"
 echo "================================"
 echo
 

@@ -1,4 +1,4 @@
-# Backend Dockerfile for Digital Behavior Twin API
+# Backend Dockerfile for Digital Behavior Prediction API
 
 FROM python:3.12-slim
 

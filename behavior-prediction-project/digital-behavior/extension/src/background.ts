@@ -1,5 +1,5 @@
 /**
- * Background Service Worker for Digital Behavior Twin Extension
+ * Background Service Worker for Digital Behavior Prediction Extension
  *
  * Responsibilities:
  * - Track tab activations, creations, updates, and removals
@@ -291,10 +291,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
  */
 chrome.runtime.onInstalled.addListener(async (details) => {
   if (details.reason === 'install') {
-    console.log('Digital Behavior Twin extension installed');
+    console.log('Digital Behavior Prediction extension installed');
     await initializeState();
   } else if (details.reason === 'update') {
-    console.log('Digital Behavior Twin extension updated');
+    console.log('Digital Behavior Prediction extension updated');
     await initializeState();
   }
 });
@@ -302,4 +302,4 @@ chrome.runtime.onInstalled.addListener(async (details) => {
 // Initialize state on startup
 initializeState();
 
-console.log('Digital Behavior Twin background service worker started');
+console.log('Digital Behavior Prediction background service worker started');

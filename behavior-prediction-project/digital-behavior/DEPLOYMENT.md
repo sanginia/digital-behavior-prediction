@@ -1,6 +1,6 @@
 # Production Deployment Guide
 
-This guide explains how to deploy Digital Behavior Twin to production for **free** or low cost.
+This guide explains how to deploy Digital Behavior Prediction to production for **free** or low cost.
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ Create `.env.production` in the root directory:
 # Database (you'll get this from your hosting provider)
 POSTGRES_USER=your_db_user
 POSTGRES_PASSWORD=your_secure_password_here
-POSTGRES_DB=digital_behavior_twin
+POSTGRES_DB=digital_behavior_prediction
 
 # Backend API URL (replace with your actual domain)
 ALLOWED_ORIGINS=https://yourdomain.com,https://www.yourdomain.com
@@ -76,7 +76,7 @@ npm run build
 2. Click "New +" → "PostgreSQL"
 3. Configure:
    - **Name**: `digital-behavior-db`
-   - **Database**: `digital_behavior_twin`
+   - **Database**: `digital_behavior_prediction`
    - **User**: (auto-generated)
    - **Region**: Choose closest to you
    - **Plan**: Free

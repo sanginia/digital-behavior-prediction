@@ -1,4 +1,4 @@
-# Digital Behavior Twin
+# Digital Behavior Prediction
 
 A full-stack behavioral modeling system that predicts task abandonment using real-time browser activity data and provides actionable interventions.
 
@@ -7,7 +7,7 @@ A full-stack behavioral modeling system that predicts task abandonment using rea
 
 ## Overview
 
-Digital Behavior Twin observes browser behavior patterns (tab switches, session duration, domain diversity) and converts them into structured behavioral sessions. It extracts time-series and aggregate features, predicts when a user is likely to abandon a task, and surfaces explanations with lightweight interventions.
+Digital Behavior Prediction observes browser behavior patterns (tab switches, session duration, domain diversity) and converts them into structured behavioral sessions. It extracts time-series and aggregate features, predicts when a user is likely to abandon a task, and surfaces explanations with lightweight interventions.
 
 ### Key Features
 
@@ -249,7 +249,7 @@ npm run build
 ### Backend (.env)
 
 ```env
-DATABASE_URL=postgresql://user:password@localhost:5432/digital_behavior_twin
+DATABASE_URL=postgresql://user:password@localhost:5432/digital_behavior_prediction
 # OR for SQLite:
 # DATABASE_URL=sqlite:///./digital_behavior.db
 

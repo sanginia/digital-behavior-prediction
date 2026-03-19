@@ -1,4 +1,4 @@
-# Digital Behavior Twin - Chrome Extension
+# Digital Behavior Prediction - Chrome Extension
 
 Browser extension that tracks user behavior patterns for task abandonment prediction.
 

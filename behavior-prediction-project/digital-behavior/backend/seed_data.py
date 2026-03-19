@@ -1,5 +1,5 @@
 """
-Seed script for generating demo data for Digital Behavior Twin
+Seed script for generating demo data for Digital Behavior Prediction
 
 This script generates realistic browsing sessions, events, features, and predictions
 for testing and demonstration purposes.
@@ -130,7 +130,7 @@ def generate_demo_data(num_sessions: int = 10):
     """Generate demo data"""
 
     print("\n" + "="*60)
-    print("Digital Behavior Twin - Demo Data Generator")
+    print("Digital Behavior Prediction - Demo Data Generator")
     print("="*60 + "\n")
 
     # Initialize database
@@ -218,7 +218,7 @@ def generate_demo_data(num_sessions: int = 10):
 if __name__ == '__main__':
     import argparse
 
-    parser = argparse.ArgumentParser(description='Generate demo data for Digital Behavior Twin')
+    parser = argparse.ArgumentParser(description='Generate demo data for Digital Behavior Prediction')
     parser.add_argument(
         '--sessions',
         type=int,
