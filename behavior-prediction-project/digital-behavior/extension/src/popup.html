@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Behavior Twin</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">Digital Behavior Twin</h1>
+      <p class="subtitle">Behavioral Tracking</p>
+    </header>
+
+    <!-- Status Section -->
+    <div class="status-section">
+      <div class="status-indicator">
+        <div class="status-dot" id="statusDot"></div>
+        <span class="status-text" id="statusText">Loading...</span>
+      </div>
+
+      <button class="toggle-btn" id="toggleButton">
+        <span id="toggleText">Pause Tracking</span>
+      </button>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-section">
+      <div class="stat-card">
+        <div class="stat-value" id="eventsToday">0</div>
+        <div class="stat-label">Events Today</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-value" id="lastSync">Never</div>
+        <div class="stat-label">Last Sync</div>
+      </div>
+    </div>
+
+    <!-- Actions Section -->
+    <div class="actions-section">
+      <button class="action-btn" id="syncButton">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+        </svg>
+        Sync Now
+      </button>
+
+      <button class="action-btn secondary" id="dashboardButton">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+        Open Dashboard
+      </button>
+    </div>
+
+    <!-- Privacy Notice -->
+    <div class="privacy-notice">
+      <p>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        We only collect metadata (URLs, domains, timestamps). No page content is captured.
+      </p>
+    </div>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# Production Docker Compose configuration
+# Run with: docker-compose -f docker-compose.yml -f infra/docker-compose.prod.yml up
+
+version: '3.8'
+
+services:
+  backend:
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    environment:
+      - LOG_LEVEL=WARNING
+    volumes: []  # Remove volume mounts for production
+
+  frontend:
+    build:
+      args:
+        - NODE_ENV=production
+    command: >
+      sh -c "
+        npm run build &&
+        npm start
+      "
+    environment:
+      - NODE_ENV=production
+    volumes: []  # Remove volume mounts for production
