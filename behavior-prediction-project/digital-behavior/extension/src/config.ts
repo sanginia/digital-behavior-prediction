@@ -9,11 +9,11 @@
 
 export const config = {
   // API Configuration
-  // For local development:
-  API_BASE_URL: 'http://localhost:8000/api/v1',
+  // For production:
+  API_BASE_URL: 'https://digital-behavior-backend.onrender.com/api/v1',
 
-  // For production (uncomment and update with your domain):
-  // API_BASE_URL: 'https://api.yourdomain.com/api/v1',
+  // For local development:
+  // API_BASE_URL: 'http://localhost:8000/api/v1',
 
   // Batch and sync settings
   BATCH_SIZE: 10,
