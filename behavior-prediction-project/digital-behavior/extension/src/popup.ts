@@ -146,7 +146,9 @@ async function syncNow() {
  * Open dashboard in new tab
  */
 function openDashboard() {
-  chrome.tabs.create({ url: 'http://localhost:3000' });
+  import('./config').then(({ config }) => {
+    chrome.tabs.create({ url: config.DASHBOARD_URL });
+  });
 }
 
 /**

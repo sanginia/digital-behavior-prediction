@@ -11,9 +11,11 @@ export const config = {
   // API Configuration
   // For production:
   API_BASE_URL: 'https://digital-behavior-backend.onrender.com/api/v1',
+  DASHBOARD_URL: 'https://digital-behavior-frontend.onrender.com',
 
   // For local development:
   // API_BASE_URL: 'http://localhost:8000/api/v1',
+  // DASHBOARD_URL: 'http://localhost:3000',
 
   // Batch and sync settings
   BATCH_SIZE: 10,
